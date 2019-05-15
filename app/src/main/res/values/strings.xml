@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Scan-me</string>
+    <string name="txt_username"></string>
+    <string name="txt_position"></string>
+
+    //QRcodeStuff
+    <string name="stuff_name"></string>
+
+    <string-array name="status_array">
+        <item>-- Status --</item>
+        <item>Best</item>
+        <item>Good</item>
+        <item>Worst</item>
+    </string-array>
+</resources>

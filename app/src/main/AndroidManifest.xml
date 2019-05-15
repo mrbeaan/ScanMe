@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ead.mobile.scan_me">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash_screen_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login_activity" />
+        <activity android:name=".Home_activity" />
+        <activity android:name=".Absensi_activity" />
+        <activity android:name=".Stuff_list_activity" />
+        <activity android:name=".New_stuff_activity" />
+        <activity android:name=".Edit_profile_activity" />
+        <activity android:name=".QRcodeStuff_activity" />
+        <activity android:name=".Content_stuff_list_activity" />
+        <activity android:name=".Absence_List_activity" />
+        <activity android:name=".Asisten_data_activity" />
+        <activity android:name=".Scan_stuff_activity" />
+        <activity android:name=".Stuff_data_acitivity"></activity>
+    </application>
+
+</manifest>

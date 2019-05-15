@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="ead.mobile.scan_me.Splash_screen_activity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="152dp"
+        android:layout_height="272dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txt_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Scan.Me"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/txt_develop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed By"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginTop="100dp"
+        />
+
+    <ImageView
+        android:id="@+id/img_ead-logo"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/ead" />
+</LinearLayout>
